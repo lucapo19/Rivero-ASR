@@ -1,1 +1,9 @@
+name: workflow
+on: [push]
 
+jobs:
+build:
+runs-on: windows-lastest
+steps:
+   - name: echo a string
+     run: echo "hello world"
