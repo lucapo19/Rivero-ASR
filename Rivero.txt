@@ -1,0 +1,4 @@
+CI/CD (integracion/distribucion continuas) es un metodo para distribuir las aplicaciones a los clientes con frecuencia. Es una solucion para los problemas que puede traer el implemento de nuevo codigo. 
+Ambiente de produccion es donde el sistema va a funcionar. Aca se realizan los ajustes necesarios para mantener el servicio
+Staging es el espacio similar al ambiente para realizar pruebas
+Pruebas son las investigaciones del software para saber la calidad del producto
