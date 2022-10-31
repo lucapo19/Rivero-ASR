@@ -1,5 +1,4 @@
-package calculadoraa;
-
+package calculadora;
 
 public class calculadora {
 
@@ -13,14 +12,17 @@ public class calculadora {
 
     }
 
-    public int multiplicar(int numero1, int numero2){
+    public int multiplicar(int numero1, int numero2) {
         return numero1 * numero2;
 
     }
+
     public int dividir(int numero1, int numero2) {
         return numero1 / numero2;
 
     }
-    public double raizCuadratica(int a, int b, int c){
-        return (-b +- Math.sqrt( (b*b)-(4*a*c) ) )/2*a;
+
+    public double raizCuadratica(int a, int b, int c) {
+        return (-b + -Math.sqrt((b * b) - (4 * a * c))) / 2 * a;
     }
+}
