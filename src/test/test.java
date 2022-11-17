@@ -81,17 +81,3 @@ public void div2testException() {
                 () -> calculadora.cuadratica(2, 4,  20)
         );
     }
-	 @Test
-    public void cuadraticaFail(){
-        double[] result = calculadora.cuadratica(4.0, 4.0, -3.0);
-        double[] expectedResults = {-0.5, 1.5};
-        //assertEquals(result, expectedResults);
-        assertFalse(Arrays.equals(expectedResults, result));
-    }
-    @Test
-    public void cuadraticaFailExceptions(){
-        assertThrows(
-                ArithmeticException.class,
-                () -> calculadora.cuadratica(2, 4,  20)
-        );
-    }
