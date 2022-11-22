@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @SpringBootTest
 class ApivanesaApplicationTests {
 
-	ApiCalculadoraApplication calculator = new ApiCalculadoraApplication();
+	ApivanesaApplication calculator = new ApivanesaApplication();
 
 	@Test
 	public void sumaTest() {
@@ -23,7 +23,7 @@ class ApivanesaApplicationTests {
 
 	@Test
 	public void sumaFail() {
-		assertNotEquals(calculator.sumar(5, 3), 2);
+		assertNotEquals(calculator.sumar(5, 3), 256);
 	}
 
 
@@ -34,7 +34,7 @@ class ApivanesaApplicationTests {
 
 	@Test
 	public void restarFail() {
-		assertNotEquals(calculator.restar(6, 1), 5);
+		assertNotEquals(calculator.restar(6, 1), 88);
 	}
 
 	@Test
