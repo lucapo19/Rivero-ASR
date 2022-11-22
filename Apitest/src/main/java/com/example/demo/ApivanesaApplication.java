@@ -15,22 +15,22 @@ public class ApivanesaApplication {
 
 
 	@GetMapping("/sumar")
-	public int sumar(@RequestParam(value="a") int numero1,@RequestParam(value = "b")int numero2) {
-		return numero1 + numero2;
+	public int sumar(@RequestParam Integer a, @RequestParam Integer b) {
+		return (a + b);
 	}
 
 	@GetMapping("/restar")
-	public int restar(@RequestParam(value="a") int numero1,@RequestParam(value = "b")int numero2) {
-		return numero1 - numero2;
+	public int restar(@RequestParam Integer a, @RequestParam Integer b) {
+		return (a - b);
 	}
 
 	@GetMapping("/multiplicar")
-	public int multiplicar(@RequestParam(value="a") int numero1,@RequestParam(value = "b")int numero2) {
-		return numero1 * numero2;
+	public int multiplicar(@RequestParam Integer a, @RequestParam Integer b) {
+		return (a * b);
 	}
 
 	@GetMapping("/dividir")
-	public int dividir(@RequestParam(value="a") int numero1,@RequestParam(value = "b")int numero2) {
-		return numero1 / numero2;
+	public int dividir(@RequestParam Integer a, @RequestParam Integer b) {
+		return (a / b);
 	}
 }
